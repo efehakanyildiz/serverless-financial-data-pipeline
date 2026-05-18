@@ -6,7 +6,7 @@ This project is a fully automated, serverless data pipeline built on AWS. It fet
 The system is designed with **FinOps principles**, bypassing expensive ETL tools (like AWS Glue) in favor of zero-cost, serverless SQL transformations using Amazon Athena.
 
 ## 🏗️ Architecture Diagram
-yfinance_diagram.png
+![Architecture Diagram](yfinance_architecture.png)
 *(The pipeline orchestrates multiple AWS microservices to ensure fault tolerance, scalability, and zero data loss.)*
 
 ## ✨ Key Features & Engineering Decisions
